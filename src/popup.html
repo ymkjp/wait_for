@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Popup - Wait For</title>
+</head>
+
+<body>
+<form class="pure-form pure-form-stacked">
+  <fieldset>
+    <legend>Options</legend>
+    <label>
+      <h4>Target element (jQuery Selector)</h4>
+      <input type="text" id="target-selector" size="50" required
+             placeholder="#jqeury.selectors" value="#jqeury.selectors">
+      <span id="option-target-selector-message" class="pure-form-message">
+        <p>Learn selector at <a href="https://api.jquery.com/category/selectors/">jQuery API Documentation</a>.</p>
+      </span>
+    </label>
+    <label>
+      <h4>Interval time (seconds)</h4>
+      <input type="number" id="interval-sec" min="1" value="30" required>
+    </label>
+
+    <button type="submit" id="option-save-button" class="pure-button pure-button-primary">Save</button>
+    <a id="setup-options-button" href="#">Go to default options</a>
+    <span id="option-save-message" class="pure-form-message"></span>
+
+  </fieldset>
+</form>
+</body>
+</html>

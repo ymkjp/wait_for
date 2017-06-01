@@ -1,0 +1,24 @@
+{
+  "name": "Wait for selector",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "app.bundle.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "storage"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+  "homepage_url": "http://ymkjp.blogspot.jp/2012/11/kindlize-it-chrome-extension.html",
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "manifest_version": 2
+}
