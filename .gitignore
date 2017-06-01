@@ -58,6 +58,7 @@ typings/
 .env
 
 # App
-build/
+build/*
+!.gitkeep
 !/.editorconfig
 !/.travis.yml
