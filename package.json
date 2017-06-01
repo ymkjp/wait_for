@@ -22,7 +22,6 @@
   },
   "devDependencies": {
     "css-loader": "^0.28.4",
-    "fs-extra": "^3.0.1",
     "html-webpack-plugin": "^2.28.0",
     "style-loader": "^0.18.1",
     "webpack": "^2.6.1",
