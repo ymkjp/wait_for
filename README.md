@@ -1,6 +1,11 @@
-wait_for
+wait_for_selector
 ===
+
+[![Build Status](https://travis-ci.org/ymkjp/wait_for_selector.svg?branch=master)](https://travis-ci.org/ymkjp/wait_for_selector)
+
 A Chrome Extension to wait for jQuery selector
+
+
 
 #### How to build
 ```bash
