@@ -12,3 +12,7 @@ A Chrome Extension to wait for jQuery selector
 npm config set wait_for:secret __YOUR_KEY__
 NODE_ENV=production npm run build
 ```
+
+#### TODOs
+* [jhen0409/react\-chrome\-extension\-boilerplate: Boilerplate for Chrome Extension React\.js project](https://github.com/jhen0409/react-chrome-extension-boilerplate)
+
